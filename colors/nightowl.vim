@@ -1007,10 +1007,11 @@ if has('nvim')
     highlight! link CmpItemKindVariable NightflyTurquoise
     highlight! link CmpItemMenu NightflyCadetBlue
 
-
-    highlight! link typescriptImport NightflyViolet
-    highlight! link typescriptImportType NightflyViolet
-    highlight! link typescriptExport NightflyViolet
+    " My Modifications plugin
+    highlight! link typescriptTSInclude NightflyViolet
+    highlight! link TSInclude NightflyViolet
+    " highlight! link tsxTSType NightflyYellow
+    " highlight! link tsxTSTypeBuiltin NightflyYellow
 
 endif
 
