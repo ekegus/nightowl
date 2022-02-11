@@ -6,11 +6,10 @@
 " Clear highlights and reset syntax only when changing colorschemes.
 if exists('g:colors_name')
     highlight clear
-    if exists('syntax_on')
-        syntax reset
+    if exists('syntax_on') syntax reset
     endif
 endif
-let g:colors_name='nightfly'
+let g:colors_name='nightowl'
 
 " Please check that Vim/Neovim is able to run this true-color only theme.
 "
@@ -1012,6 +1011,12 @@ if has('nvim')
     highlight! link CmpItemKindValue NightflyTurquoise
     highlight! link CmpItemKindVariable NightflyTurquoise
     highlight! link CmpItemMenu NightflyCadetBlue
+
+
+    highlight! link typescriptImport NightflyViolet
+    highlight! link typescriptImportType NightflyViolet
+    highlight! link typescriptExport NightflyViolet
+
 endif
 
 set background=dark
