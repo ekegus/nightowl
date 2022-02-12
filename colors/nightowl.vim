@@ -1021,11 +1021,13 @@ if g:nightflyItalics
     exec 'highlight typescriptTSInclude guifg=' . s:violet . ' gui=italic'
     exec 'highlight TSType guifg=' . s:peach . ' gui=italic'
     exec 'highlight TSConstant guifg=' . s:blue . ' gui=italic'
+    exec 'highlight TSKeyword guifg=' . s:violet . ' gui=italic'
 else
     exec 'highlight TSInclude guifg=' . s:violet
     exec 'highlight typescriptTSInclude guifg=' . s:violet
     exec 'highlight TSType guifg=' . s:peach
     exec 'highlight TSContant guifg=' . s:peach
+    exec 'highlight TSKeyword guifg=' . s:violet
 endif
 
 set background=dark
