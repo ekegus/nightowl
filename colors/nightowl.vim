@@ -1010,6 +1010,7 @@ if has('nvim')
     " My Modifications plugin
     highlight! link typescriptTSInclude NightflyViolet
     highlight! link TSInclude NightflyViolet
+    highlight! link TSOperator NightflyViolet
     " highlight! link tsxTSType NightflyYellow
     " highlight! link tsxTSTypeBuiltin NightflyYellow
 
@@ -1018,9 +1019,13 @@ endif
 if g:nightflyItalics
     exec 'highlight TSInclude guifg=' . s:violet . ' gui=italic'
     exec 'highlight typescriptTSInclude guifg=' . s:violet . ' gui=italic'
+    exec 'highlight TSType guifg=' . s:peach . ' gui=italic'
+    exec 'highlight TSConstant guifg=' . s:blue . ' gui=italic'
 else
     exec 'highlight TSInclude guifg=' . s:violet
     exec 'highlight typescriptTSInclude guifg=' . s:violet
+    exec 'highlight TSType guifg=' . s:peach
+    exec 'highlight TSContant guifg=' . s:peach
 endif
 
 set background=dark
