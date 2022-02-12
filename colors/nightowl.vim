@@ -1017,8 +1017,10 @@ endif
 
 if g:nightflyItalics
     exec 'highlight TSInclude guifg=' . s:violet . ' gui=italic'
+    exec 'highlight typescriptTSInclude guifg=' . s:violet . ' gui=italic'
 else
     exec 'highlight TSInclude guifg=' . s:violet
+    exec 'highlight typescriptTSInclude guifg=' . s:violet
 endif
 
 set background=dark
