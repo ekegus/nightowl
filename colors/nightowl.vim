@@ -1015,4 +1015,10 @@ if has('nvim')
 
 endif
 
+if g:nightflyItalics
+    exec 'highlight TSInclude guifg=' . s:violet . ' gui=italic'
+else
+    exec 'highlight TSInclude guifg=' . s:violet
+endif
+
 set background=dark
