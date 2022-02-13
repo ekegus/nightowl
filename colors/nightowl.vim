@@ -496,36 +496,36 @@ highlight! link javaScopeDecl NightflyViolet
 highlight! link javaStatement NightflyTurquoise
 
 " JavaScript, 'pangloss/vim-javascript' plugin
-highlight! link jsClassDefinition NightflyEmerald
-highlight! link jsClassKeyword NightflyViolet
-highlight! link jsClassMethodType NightflyEmerald
-highlight! link jsExceptions NightflyEmerald
-highlight! link jsFrom NightflyOrange
-highlight! link jsFuncBlock NightflyTurquoise
-highlight! link jsFuncCall NightflyBlue
-highlight! link jsFunction NightflyViolet
-highlight! link jsGlobalObjects NightflyGreen
-highlight! link jsModuleAs NightflyOrange
-highlight! link jsObjectKey NightflyBlue
-highlight! link jsObjectValue NightflyEmerald
-highlight! link jsOperator NightflyViolet
-highlight! link jsStorageClass NightflyGreen
-highlight! link jsTemplateBraces NightflyWatermelon
-highlight! link jsTemplateExpression NightflyTurquoise
-highlight! link jsThis NightflyTurquoise
+" highlight! link jsClassDefinition NightflyEmerald
+" highlight! link jsClassKeyword NightflyViolet
+" highlight! link jsClassMethodType NightflyEmerald
+" highlight! link jsExceptions NightflyEmerald
+" highlight! link jsFrom NightflyOrange
+" highlight! link jsFuncBlock NightflyTurquoise
+" highlight! link jsFuncCall NightflyBlue
+" highlight! link jsFunction NightflyViolet
+" highlight! link jsGlobalObjects NightflyGreen
+" highlight! link jsModuleAs NightflyOrange
+" highlight! link jsObjectKey NightflyBlue
+" highlight! link jsObjectValue NightflyEmerald
+" highlight! link jsOperator NightflyViolet
+" highlight! link jsStorageClass NightflyGreen
+" highlight! link jsTemplateBraces NightflyWatermelon
+" highlight! link jsTemplateExpression NightflyTurquoise
+" highlight! link jsThis NightflyTurquoise
 
 " JSX, 'MaxMEllon/vim-jsx-pretty' plugin
-highlight! link jsxAttrib NightflyGreen
-highlight! link jsxClosePunct NightflyPurple
-highlight! link jsxComponentName NightflyBlue
-highlight! link jsxOpenPunct NightflyGreen
-highlight! link jsxTagName NightflyBlue
+" highlight! link jsxAttrib NightflyGreen
+" highlight! link jsxClosePunct NightflyPurple
+" highlight! link jsxComponentName NightflyBlue
+" highlight! link jsxOpenPunct NightflyGreen
+" highlight! link jsxTagName NightflyBlue
 
 " Lua
-highlight! link luaBraces NightflyWatermelon
-highlight! link luaBuiltin NightflyGreen
-highlight! link luaFuncCall NightflyBlue
-highlight! link luaSpecialTable NightflyBlue
+" highlight! link luaBraces NightflyWatermelon
+" highlight! link luaBuiltin NightflyGreen
+" highlight! link luaFuncCall NightflyBlue
+" highlight! link luaSpecialTable NightflyBlue
 
 " Markdown, 'tpope/vim-markdown' plugin
 highlight! link markdownBold NightflyPeach
@@ -633,46 +633,46 @@ highlight! link shShellVariables NightflyGreen
 highlight! link shVariable NightflyTurquoise
 
 " TypeScript (leafgarland/typescript-vim)
-highlight! link typescriptDOMObjects NightflyBlue
-highlight! link typescriptFuncComma NightflyWhite
-highlight! link typescriptFuncKeyword NightflyGreen
-highlight! link typescriptGlobalObjects NightflyBlue
-highlight! link typescriptIdentifier NightflyGreen
-highlight! link typescriptNull NightflyGreen
-highlight! link typescriptOpSymbols NightflyViolet
-highlight! link typescriptOperator NightflyWatermelon
-highlight! link typescriptParens NightflyWhite
-highlight! link typescriptReserved NightflyViolet
-highlight! link typescriptStorageClass NightflyGreen
-
-" TypeScript (HerringtonDarkholme/yats.vim)
-highlight! link typeScriptModule NightflyBlue
-highlight! link typescriptAbstract NightflyOrange
-highlight! link typescriptArrayMethod NightflyBlue
-highlight! link typescriptArrowFuncArg NightflyWhite
-highlight! link typescriptBOM NightflyEmerald
-highlight! link typescriptBOMHistoryMethod NightflyBlue
-highlight! link typescriptBOMLocationMethod NightflyBlue
-highlight! link typescriptBOMWindowProp NightflyGreen
-highlight! link typescriptBraces NightflyWhite
-highlight! link typescriptCall NightflyWhite
-highlight! link typescriptClassHeritage NightflyPeach
-highlight! link typescriptClassKeyword NightflyViolet
-highlight! link typescriptClassName NightflyEmerald
-highlight! link typescriptDecorator NightflyGreen
-highlight! link typescriptDOMDocMethod NightflyBlue
-highlight! link typescriptDOMEventTargetMethod NightflyBlue
-highlight! link typescriptDOMNodeMethod NightflyBlue
-highlight! link typescriptExceptions NightflyWatermelon
-highlight! link typescriptFuncType NightflyWhite
-highlight! link typescriptMathStaticMethod NightflyBlue
-highlight! link typescriptMethodAccessor NightflyViolet
-highlight! link typescriptObjectLabel NightflyBlue
-highlight! link typescriptParamImpl NightflyWhite
-highlight! link typescriptStringMethod NightflyBlue
-highlight! link typescriptTry NightflyWatermelon
-highlight! link typescriptVariable NightflyGreen
-highlight! link typescriptXHRMethod NightflyBlue
+" highlight! link typescriptDOMObjects NightflyBlue
+" highlight! link typescriptFuncComma NightflyWhite
+" highlight! link typescriptFuncKeyword NightflyGreen
+" highlight! link typescriptGlobalObjects NightflyBlue
+" highlight! link typescriptIdentifier NightflyGreen
+" highlight! link typescriptNull NightflyGreen
+" highlight! link typescriptOpSymbols NightflyViolet
+" highlight! link typescriptOperator NightflyWatermelon
+" highlight! link typescriptParens NightflyWhite
+" highlight! link typescriptReserved NightflyViolet
+" highlight! link typescriptStorageClass NightflyGreen
+" 
+" " TypeScript (HerringtonDarkholme/yats.vim)
+" highlight! link typeScriptModule NightflyBlue
+" highlight! link typescriptAbstract NightflyOrange
+" highlight! link typescriptArrayMethod NightflyBlue
+" highlight! link typescriptArrowFuncArg NightflyWhite
+" highlight! link typescriptBOM NightflyEmerald
+" highlight! link typescriptBOMHistoryMethod NightflyBlue
+" highlight! link typescriptBOMLocationMethod NightflyBlue
+" highlight! link typescriptBOMWindowProp NightflyGreen
+" highlight! link typescriptBraces NightflyWhite
+" highlight! link typescriptCall NightflyWhite
+" highlight! link typescriptClassHeritage NightflyPeach
+" highlight! link typescriptClassKeyword NightflyViolet
+" highlight! link typescriptClassName NightflyEmerald
+" highlight! link typescriptDecorator NightflyGreen
+" highlight! link typescriptDOMDocMethod NightflyBlue
+" highlight! link typescriptDOMEventTargetMethod NightflyBlue
+" highlight! link typescriptDOMNodeMethod NightflyBlue
+" highlight! link typescriptExceptions NightflyWatermelon
+" highlight! link typescriptFuncType NightflyWhite
+" highlight! link typescriptMathStaticMethod NightflyBlue
+" highlight! link typescriptMethodAccessor NightflyViolet
+" highlight! link typescriptObjectLabel NightflyBlue
+" highlight! link typescriptParamImpl NightflyWhite
+" highlight! link typescriptStringMethod NightflyBlue
+" highlight! link typescriptTry NightflyWatermelon
+" highlight! link typescriptVariable NightflyGreen
+" highlight! link typescriptXHRMethod NightflyBlue
 
 " Vimscript
 highlight! link vimBracket NightflyBlue
@@ -714,50 +714,6 @@ highlight! link diffLine NightflyBlue
 highlight! link diffRemoved NightflyRed
 highlight! link diffSubname NightflyBlue
 
-" Tagbar plugin
-highlight! link TagbarFoldIcon NightflyCadetBlue
-highlight! link TagbarVisibilityPublic NightflyGreen
-highlight! link TagbarVisibilityProtected NightflyGreen
-highlight! link TagbarVisibilityPrivate NightflyGreen
-highlight! link TagbarKind NightflyEmerald
-
-" NERDTree plugin
-highlight! link NERDTreeClosable NightflyEmerald
-highlight! link NERDTreeCWD NightflyPurple
-highlight! link NERDTreeDir NightflyBlue
-highlight! link NERDTreeDirSlash NightflyWatermelon
-highlight! link NERDTreeExecFile NightflyTan
-highlight! link NERDTreeFile NightflyWhite
-highlight! link NERDTreeFlags NightflyPurple
-highlight! link NERDTreeHelp NightflyCadetBlue
-highlight! link NERDTreeLinkDir NightflyBlue
-highlight! link NERDTreeLinkFile NightflyBlue
-highlight! link NERDTreeLinkTarget NightflyTurquoise
-highlight! link NERDTreeOpenable NightflyEmerald
-highlight! link NERDTreePart NightflyRegalBlue
-highlight! link NERDTreePartFile NightflyRegalBlue
-highlight! link NERDTreeUp NightflyBlue
-
-" NERDTree Git plugin
-highlight! link NERDTreeGitStatusDirDirty NightflyTan
-highlight! link NERDTreeGitStatusModified NightflyWatermelon
-highlight! link NERDTreeGitStatusRenamed NightflyBlue
-highlight! link NERDTreeGitStatusStaged NightflyBlue
-highlight! link NERDTreeGitStatusUntracked NightflyRed
-
-" fern.vim plugin
-highlight! link FernBranchSymbol NightflyEmerald
-highlight! link FernBranchText NightflyBlue
-highlight! link FernMarkedLine NightflyYellow
-highlight! link FernMarkedText NightflyWatermelon
-highlight! link FernRootSymbol NightflyPurple
-highlight! link FernRootText NightflyPurple
-
-" fern-git-status.vim plugin
-highlight! link FernGitStatusBracket NightflyGreyBlue
-highlight! link FernGitStatusIndex NightflyEmerald
-highlight! link FernGitStatusWorktree NightflyWatermelon
-
 " Misc languages and plugins
 highlight! link bufExplorerHelp NightflyCadetBlue
 highlight! link bufExplorerSortBy NightflyCadetBlue
@@ -788,29 +744,6 @@ exec 'highlight DiffAdd guibg=' . s:emerald . ' guifg=' . s:black
 exec 'highlight DiffChange guibg=' . s:slate_blue
 exec 'highlight DiffDelete guibg=' . s:slate_blue . ' guifg=' . s:watermelon ' gui=none'
 exec 'highlight DiffText guibg=' . s:blue . ' guifg=' . s:black . ' gui=none'
-
-" ALE plugin
-if g:nightflyUndercurls
-    exec 'highlight ALEError guibg=NONE gui=undercurl guisp=' . s:red
-    exec 'highlight ALEWarning guibg=NONE gui=undercurl guisp=' . s:yellow
-    exec 'highlight ALEInfo guibg=NONE gui=undercurl guisp=' . s:blue
-else
-    exec 'highlight ALEError guibg=NONE'
-    exec 'highlight ALEWarning guibg=NONE'
-    exec 'highlight ALEInfo guibg=NONE'
-endif
-highlight! link ALEVirtualTextError NightflySteelBlue
-highlight! link ALEErrorSign NightflyRedAlert
-highlight! link ALEVirtualTextWarning NightflySteelBlue
-highlight! link ALEWarningSign NightflyYellowAlert
-highlight! link ALEVirtualTextInfo NightflySteelBlue
-highlight! link ALEInfoSign NightflyBlueAlert
-
-" GitGutter plugin
-highlight! link GitGutterAdd NightflyEmeraldAlert
-highlight! link GitGutterChange NightflyYellowAlert
-highlight! link GitGutterChangeDelete NightflyOrangeAlert
-highlight! link GitGutterDelete NightflyRedAlert
 
 " Signify plugin
 highlight! link SignifySignAdd NightflyEmeraldAlert
