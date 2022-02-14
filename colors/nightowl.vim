@@ -314,15 +314,16 @@ if has('nvim')
     " Neovim Treesitter
     highlight! link TSAnnotation NightflyViolet
     highlight! link TSAttribute NightflyBlue
-    highlight! link TSConstant NightflyTurquoise
     highlight! link TSConstBuiltin NightflyGreen
     highlight! link TSConstMacro NightflyViolet
+    highlight! link TSConstant NightflyTurquoise
     highlight! link TSConstructor NightflyEmerald
     highlight! link TSFuncBuiltin NightflyBlue
     highlight! link TSFuncMacro NightflyBlue
     highlight! link TSInclude NightflyWatermelon
     highlight! link TSKeywordOperator NightflyViolet
     highlight! link TSNamespace NightflyIndigo
+    highlight! link TSOperator NightflyViolet
     highlight! link TSParameter NightflyWhite
     highlight! link TSPunctSpecial NightflyWatermelon
     highlight! link TSSymbol NightflyPurple
@@ -332,6 +333,8 @@ if has('nvim')
     highlight! link bashTSParameter NightflyTurquoise
     highlight! link cssTSPunctDelimiter NightflyWatermelon
     highlight! link cssTSType NightflyBlue
+    highlight! link markdownTSPunctSpecial NightflyBlue
+    highlight! link markdownTSTitle NightflyViolet
     highlight! link scssTSPunctDelimiter NightflyWatermelon
     highlight! link scssTSType NightflyBlue
     highlight! link yamlTSField NightflyBlue
@@ -583,12 +586,6 @@ if has('nvim')
     highlight! link CmpItemKindVariable NightflyTurquoise
     highlight! link CmpItemMenu NightflyCadetBlue
 
-    " My Modifications plugin
-    highlight! link typescriptTSInclude NightflyViolet
-    highlight! link TSInclude NightflyViolet
-    highlight! link TSOperator NightflyViolet
-    " highlight! link tsxTSType NightflyYellow
-    " highlight! link tsxTSTypeBuiltin NightflyYellow
 
 endif
 
